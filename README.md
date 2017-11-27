@@ -4,9 +4,11 @@ Example for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatch-cucumb
 ## Usage
 
 ```
-npm i -g ntl
 git clone git@github.com:mucsi96/nightwatch-cucumber-async-await-example.git
 cd nightwatch-cucumber-async-await-example
 npm i
-ntl
+npm run e2e-test
+npm run e2e-test:chrome
+npm run e2e-test:firefox
+npm run e2e-debug
 ```
